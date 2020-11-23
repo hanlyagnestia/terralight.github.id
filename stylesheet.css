@@ -1,0 +1,53 @@
+html,body,ul,ol,li,h1,h2,h3,h4,,h5,h6,p,form,input,div {
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:"Comic Sans MS", cursive, sans-serif
+}
+li {
+  list-style:none;
+}
+.header{
+  background-color:#8B4513;
+  color:#fff;
+  height:100px;
+}
+.header-logo{
+  float:left;
+  font-size:48px;
+  padding:40px 80px;
+}
+.header-list{
+  float:left;
+}
+.header-list li{
+  float:left;
+  padding:35px 22px
+}
+.main{
+  padding:150px 90px
+}
+.copy-container h1{
+  font-size:200px
+  font-family:"Arial Black",gadget,sans-serif;
+}
+.copy-container h2{
+  font-size:60px
+  font-familly:"Lucida Sans Unicode","Lucinda Grande",sans-serif
+}
+.contact-form {
+  padding-top:650px;
+}
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:25px;
+  font-size:18px;
+  border: 2px solid #00008B;
+}
+.contact-submit{
+  background-color:#FFFEBCD;
+  color:#FOFFF;
+}
